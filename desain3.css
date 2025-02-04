@@ -1,0 +1,84 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    mix-blend-mode: multiply;
+}
+
+.bekgron{
+    background-image: url(Pink\ Abstract\ Cute\ Background\ Instagram\ Story.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+}
+
+
+
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100h);
+        opacity: 0;
+        -webkit-transform: translateY(100h);
+        -moz-transform: translateY(100h);
+        -ms-transform: translateY(100h);
+        -o-transform: translateY(100h);
+}
+}
+
+
+.konten{
+    height: 30%;
+    display: flex;
+    margin-left: 8vw;
+    margin-bottom: 2vh;
+}
+
+.teks{
+    font-size: 16px;
+    width: 78%;
+    margin-left: 10px;
+
+}
+
+.atas{
+    position: relative;
+    margin-top: 6vh;
+    margin-left: 17vw;
+    margin-bottom: 10vh;
+    
+}
+
+.tomboll{
+    font-style: italic;
+    font-size: 1.2em;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    margin-top: 6vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 30%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.nama{
+    color:hotpink
+}
